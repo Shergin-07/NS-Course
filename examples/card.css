@@ -1,0 +1,49 @@
+#card1{
+
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 300px;
+    margin: 200px;
+
+
+    
+}
+
+.c1{
+
+    
+    
+    height: 250px;
+    position: absolute;
+    border-color: black;
+    border-width: 3px;
+    border-style:solid ;
+   border-radius: 10px; 
+
+    
+}
+
+.c2{
+     
+   height: 250px;
+   border: 3px solid black ;
+    border-radius: 10px;
+    margin-left: 50px;
+    position: absolute;
+
+    z-index: ;
+    
+    
+
+}
+
+.c3{
+   
+   height: 250px;
+   border: 3px solid black ;
+    border-radius: 10px;
+    margin-left: 100px;
+    position: absolute;
+
+}

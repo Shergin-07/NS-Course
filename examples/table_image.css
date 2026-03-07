@@ -1,0 +1,29 @@
+tr{
+    border: ;
+}
+
+table{
+
+   height: 500px; 
+
+   width: 500px;
+    
+}
+
+
+/* tr{
+     padding: 100px;
+    
+    height: 50px;
+    width: 50px;
+}     */ 
+
+
+.a1{
+
+    background-image: url(image1.png);
+}
+
+.a2{
+    background-image: url(image.png);
+}

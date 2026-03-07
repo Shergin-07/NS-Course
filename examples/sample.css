@@ -1,0 +1,42 @@
+#one{
+   
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    padding-left: 45%;
+    padding-top: 10%;
+    padding: auto;
+    
+}
+
+.login{
+
+     padding-left: 35%;
+    padding-top: 5%;
+}
+
+body{
+
+    background-color: powderblue;
+}
+
+.log{
+
+
+}
+    
+    
+
+button {
+          
+     
+    margin-top: 20%; 
+    margin-left: 17%; 
+}
+
+#no1{
+   
+      margin-left: 5%;
+    
+}
+

@@ -1,0 +1,35 @@
+.battery {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+}
+
+.battery-level {
+  height: 100%;
+  background: linear-gradient(to right, #4caf50, #8bc34a); /* Green gradient for charged */
+  border-radius: 3px;
+  width: var(--level, 0%); /* Dynamic width based on level */
+  transition: width 0.3s ease; /* Smooth animation */
+}
+
+.battery-tip {
+  position: absolute;
+  right: -8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 15px;
+  background: #333;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Low battery warning (e.g., if level < 20%) */
+.battery-level[data-low="true"] {
+  background: linear-gradient(to right, #ff9800, #f44336); /* Orange to red */
+}

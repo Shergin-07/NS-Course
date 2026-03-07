@@ -1,0 +1,59 @@
+.square{
+
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    color: black;
+    background-color: aquamarine;
+    margin-left: 10%;
+    
+}
+
+.circle{
+
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    background-color: blanchedalmond;
+    align-items: center;
+
+    margin-left: 10%;
+    
+}
+
+.rectangle{
+
+    border: 2px solid black;
+    height: 200px;
+    width: 500px;
+    color: black;
+    background-color: rgb(0, 0, 254);
+    margin-left: 10%;
+    
+}
+
+head{
+    background-color: aqua;
+}
+
+
+body{
+    color: green;
+    background-color: grey;
+}
+
+
+a:hover{
+    
+    color: orange;
+    align-items: center;
+    
+    
+}
+
+a{
+
+    color: aqua;
+}
+

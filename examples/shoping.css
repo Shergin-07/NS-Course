@@ -1,0 +1,37 @@
+body{
+    background-color: aqua;
+    display: inline-block;
+}
+
+h1{
+    border: 1px solid black;
+    height: 100px;
+
+    width: 740px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.product1{
+   display: block;
+
+   border: 1px  solid black;
+   margin-right: 60%;
+   
+}
+
+.image1{
+
+    height: 300px;
+    width: 295px;
+}
+
+.image2
+
+button{
+    color: white;
+    background-color: black;
+}
