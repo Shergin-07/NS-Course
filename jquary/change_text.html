@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change text</title>
+    <script src="jquery-4.0.0.js"></script>
+</head>
+<body>
+
+<h1 id="text">Orginal text</h1>    
+    
+<button id="btn1">Change Text 1</button>
+<button id="btn2">Change Text 2</button>
+
+<script>
+
+$(document).ready(function(){
+
+    $("#btn1").click(function(){
+        $("#text").text("Hello how are you !");
+    });
+
+    $("#btn2").click(function(){
+        $("#text").text("Welcome All !");
+    });
+});
+
+</script>
+
+</body>
+</html>

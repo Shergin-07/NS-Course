@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+    <script src="jquery-4.0.0.js"></script>
+</head>
+<body>
+    <h1>Welcome</h1>
+
+    <button id="a">Show</button>
+
+    <button id="b">Hide</button>
+
+    <script>
+
+        $(document).ready(function(){
+            $("#b").click (function(){
+                 $("h1").hide()
+
+            })
+        })
+
+         $(document).ready(function(){
+            $("#a").click (function(){
+                 $("h1").show()
+
+            })
+        })
+
+
+        
+        
+    </script>
+
+</body>
+</html>

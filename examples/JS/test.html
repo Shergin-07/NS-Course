@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bulb Card</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    width:220px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    text-align:center;
+    padding:20px;
+}
+
+img{
+    width:90px;
+    border-radius:50%;
+    margin:10px 0;
+}
+
+.counter{
+    font-size:22px;
+    margin:10px 0;
+}
+
+button{
+    padding:6px 12px;
+    margin:5px;
+    border:none;
+    background:#007bff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h3>Bulb</h3>
+
+<img src="./bulb-off.png" id="bulb">
+
+<div class="counter" id="count">0</div>
+
+<button onclick="add()">+</button>
+<button onclick="sub()">-</button>
+
+<br><br>
+
+<button onclick="lighton()">ON</button>
+<button onclick="lightoff()">OFF</button>
+
+</div>
+
+<script>
+
+let count = 0;
+
+function add(){
+    count++;
+    document.getElementById("count").innerText = count;
+}
+
+function sub(){
+    if(count>0){
+        count--;
+        document.getElementById("count").innerText = count;
+    }
+}
+
+function lighton(){
+    document.getElementById("bulb").src="./bulb-on.png";
+}
+
+function lightoff(){
+    document.getElementById("bulb").src="./bulb-off.png";
+}
+
+</script>
+
+</body>
+</html>

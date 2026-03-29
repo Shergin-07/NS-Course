@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Background Change</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+
+<body>
+
+<button id="btn1">Yellow Background</button>
+<button id="btn2">Blue Background</button>
+
+<script>
+$(document).ready(function(){
+
+    $("#btn1").click(function(){
+        $("body").css("background-color","yellow");
+    })
+
+    $("#btn2").click(function(){
+        $("body").css("background-color","blue");
+    })
+})
+
+</script>
+</body>
+</html>
