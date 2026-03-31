@@ -1,4 +1,4 @@
-
+// Method 1
 
 exports.add = function(a,b){
 
